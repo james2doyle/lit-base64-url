@@ -11,7 +11,6 @@ assert(decode, text, 'decode: ' .. decode)
 local textEscape = 'This+is/goingto+escape=='
 
 local escape = base64url.escape(textEscape)
--- assert(escape.match(/\+|\//g), nil, 'escape (omit + and /): ' .. escape)
 assert(escape == "This-is_goingto-escape", 'escape (omit + and /): ' .. escape)
 
 local unescape = base64url.unescape(escape)
