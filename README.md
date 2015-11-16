@@ -1,5 +1,5 @@
-Lit rndm
-========
+Lit Base64 URL
+==============
 
 > Base64 encode, decode, escape and unescape for URL applications
 
